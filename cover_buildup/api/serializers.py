@@ -1,19 +1,11 @@
 from rest_framework import serializers
-from rest_framework.relations import SlugRelatedField
 
-from buildup.models import Unit, Reach
+from buildup.models import Unit
 
-class ReachSerializer(serializers.ModelSerializer):
-
-    class Meta:
-        model = Reach
-        fields = '__all__'
 
 class FileSerializer(serializers.ModelSerializer):
-    author = SlugRelatedField(slug_field='username', read_only=True)
-    reach = 'serializers.SerializerMethodField()'
-
+    reach = serializers.StringRelatedField(many=True, read_only=True)
 
     class Meta:
-        fields = '__all__'
+        fields = ('unit', 'reach')
         model = Unit
