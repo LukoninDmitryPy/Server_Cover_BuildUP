@@ -59,6 +59,7 @@ py manage.py runserver
         "password": "user1234"
     } 
     ```
+    
     ```
     POST http://127.0.0.1:8000/jwt/create/
     ```
