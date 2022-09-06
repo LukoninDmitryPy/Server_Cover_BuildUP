@@ -49,27 +49,28 @@ py manage.py runserver
 ### Работа с API через Postman Agent:
 
 #### Для регистрации и аутентификации:
-    ```
-    POST http://127.0.0.1:8000/users/
-    ```
-    ```
-    JSON:
-    {
-        "username": "user",
-        "password": "user1234"
-    } 
-    ```
+
+```
+POST http://127.0.0.1:8000/users/
+```
+```
+JSON:
+{
+    "username": "user",
+    "password": "user1234"
+} 
+```
     
-    ```
-    POST http://127.0.0.1:8000/jwt/create/
-    ```
-    ```
-    JSON:
-    {
-        "username": "user",
-        "password": "user1234"
-    } 
-    ```
+```
+POST http://127.0.0.1:8000/jwt/create/
+```
+```
+JSON:
+{
+    "username": "user",
+    "password": "user1234"
+} 
+```
 
 #### Работа с загрузкой XLSX документа в базу данных:
 
