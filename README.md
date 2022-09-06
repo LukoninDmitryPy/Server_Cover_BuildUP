@@ -52,8 +52,7 @@ py manage.py runserver
 
 ```
 POST http://127.0.0.1:8000/users/
-```
-```
+
 JSON:
 {
     "username": "user",
@@ -63,8 +62,7 @@ JSON:
     
 ```
 POST http://127.0.0.1:8000/jwt/create/
-```
-```
+
 JSON:
 {
     "username": "user",
@@ -76,8 +74,7 @@ JSON:
 
 ```
 POST http://127.0.0.1:8000/v1/users/
-```
-```
+
 JSON:
 {
     Authorization:"Token 'access-token'"
@@ -88,8 +85,7 @@ JSON:
 
 ```
 GET http://127.0.0.1:8000/v1/users/
-```
-```
+
 JSON:
 {
     Authorization:"Token 'access-token'"
@@ -100,8 +96,7 @@ JSON:
 
 ```
 GET http://127.0.0.1:8000/v1/users/download_and_get/
-```
-```
+
 JSON:
 {
     Authorization:"Token 'access-token'"
