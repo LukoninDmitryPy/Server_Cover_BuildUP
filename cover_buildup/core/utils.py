@@ -47,7 +47,7 @@ def download_csv_to_xlsx(request):
     )
     for val in result:
         writer.writerow([val[0], *val[1]])
-    response['Content-Disposition'] = 'attachment; filename="somefilename.txt"'
-    df = pd.read_csv("somefilename.txt")
+    response['Content-Disposition'] = 'attachment; filename="raw_data.txt"'
+    df = pd.read_csv("raw_data.txt")
     df.to_excel("data.xlsx", sheet_name="Testing", index=False)
     return response
