@@ -110,7 +110,7 @@ JSON:
     Authorization:"Token 'access-token'"
 } 
 ```
-* Для получения xslx файла, необходимо переместить файл raw_data.txt в папку cover_buildup
+* Для получения xslx файла, необходимо переместить файл raw_data.txt в папку server_cover_buildup/cover_buildup
 
 * Выполнить повторный GET запрос
 
