@@ -15,7 +15,7 @@ class Unit(models.Model):
         )
     author = models.ForeignKey(
         User, on_delete=models.CASCADE,
-        related_name='authors')
+        related_name='units')
 
     def __str__(self):
         return self.unit

@@ -26,10 +26,7 @@ def reach_value_validator(value):
 
 
 def unit_value_validator(value):
-    try:
-        if value < 0:
-            raise ValidationError(
-                f'Значение в поле unit должно быть > 0, вы ввели: {value}'
-            )
-    except ValueError:
-        raise ValidationError('Неверные данные')
+    if value < 0:
+        raise ValidationError(
+            f'Значение в поле unit должно быть > 0, вы ввели: {value}'
+        )
