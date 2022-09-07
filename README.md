@@ -40,7 +40,7 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### ВЫполнене миграций и создание базы данных:
+### Вполнене миграций и создание базы данных:
 
 ```
 py manage.py migrate
