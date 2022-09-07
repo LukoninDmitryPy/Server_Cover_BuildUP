@@ -5,7 +5,7 @@
 [![SQLite](https://img.shields.io/badge/-SQLite-464646?style=flat-square&logo=SQLite)](https://www.sqlite.org/)
 [![GitHub%20Actions](https://img.shields.io/badge/-GitHub%20Actions-464646?style=flat-square&logo=GitHub%20actions)](https://github.com/features/actions)
 
-Cover_build_up реализован загрузки, хранения и выгрузки xslx файлов с полями Unit, Reach% (1-10)+.
+Cover_build_up реализован для загрузки, хранения и выгрузки xslx файлов с полями Unit, Reach% (1-10)+.
 
 ## Подготовка и запуск проекта
 ### Склонировать репозиторий на локальную машину:
