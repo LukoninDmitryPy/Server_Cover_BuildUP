@@ -87,7 +87,7 @@ JSON:
 } 
 ```
 
-Все файла должны находиться в server_cover_buildup/cover_buildup
+Все файлы должны находиться в server_cover_buildup/cover_buildup
 
 #### Получение данных HTTP-ответом:
 
