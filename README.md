@@ -78,7 +78,7 @@ JSON:
 #### Работа с загрузкой XLSX документа в базу данных:
 
 ```
-POST http://127.0.0.1:8000/v1/users/
+POST http://127.0.0.1:8000/v1/files/
 
 JSON:
 {
@@ -91,7 +91,7 @@ JSON:
 #### Получение данных HTTP-ответом:
 
 ```
-GET http://127.0.0.1:8000/v1/users/
+GET http://127.0.0.1:8000/v1/files/
 
 JSON:
 {
@@ -102,7 +102,7 @@ JSON:
 #### Работа с выгрузкой данных в xslx документ:
 
 ```
-GET http://127.0.0.1:8000/v1/users/download_and_get/
+GET http://127.0.0.1:8000/v1/files/download_and_get/
 
 JSON:
 {
